@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        display: ['"DM Serif Display"', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },
@@ -18,5 +19,19 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
-  ]
+  ],
+  daisyui: {
+    themes: [
+      {
+        tropical: {
+          "primary": "#2D4F1E",
+          "secondary": "#A67C52",
+          "accent": "#E6B325",
+          "neutral": "#1A1A1A",
+          "base-100": "#F7F3E9",
+          "base-content": "#1A1A1A",
+        }
+      }
+    ]
+  }
 }

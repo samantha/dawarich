@@ -1,4 +1,9 @@
 export const mapsConfig = {
+    "Stadia Alidade Smooth": {
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
+      maxZoom: 20,
+      attribution: "&copy; <a href='https://stadiamaps.com/'>Stadia Maps</a>, &copy; <a href='https://openmaptiles.org/'>OpenMapTiles</a> &copy; <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors"
+    },
     "OpenStreetMap": {
       url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       maxZoom: 19,

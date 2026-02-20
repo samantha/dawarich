@@ -57,7 +57,7 @@
         <% end %>
       </ul>
     </div>
-    <%= link_to 'Dawarich<sup>α</sup>'.html_safe, (user_signed_in? ? preferred_map_path : root_path), class: 'btn btn-ghost normal-case text-xl'%>
+    <%= link_to 'Timeline Archive', (user_signed_in? ? preferred_map_path : root_path), class: 'btn btn-ghost normal-case text-xl font-display' %>
     <div class="badge mx-4 <%= 'badge-outline' if new_version_available? %>">
       <a href="https://github.com/Freika/dawarich/releases/latest" target="_blank" class="inline-flex items-center">
         <% if new_version_available? %>

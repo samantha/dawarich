@@ -230,3 +230,13 @@ html.dark em-emoji-picker {
   border: none;
   border-radius: 0.5rem;
 }
+
+h1, h2, h3, .font-display {
+  font-family: "DM Serif Display", serif;
+  color: #2D4F1E;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  color: #1A1A1A;
+}
